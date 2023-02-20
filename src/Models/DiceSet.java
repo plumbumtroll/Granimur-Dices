@@ -1,14 +1,14 @@
 package Models;
 
 public class DiceSet {
-    int value;
+    int nominal;
     int count;
     DiceSet() {
-        value = 0;
+        nominal = 0;
         count = 0;
     }
     DiceSet(int value, int count) {
-        this.value =  value;
+        this.nominal =  value;
         this.count = count;
     }
 }
