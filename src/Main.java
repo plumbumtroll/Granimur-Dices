@@ -1,3 +1,6 @@
+import Models.Combination;
+import Models.CombinationType;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -21,6 +24,9 @@ public class Main {
         return null;
     }
 
-    public static
+    public static Combination defineCombination(int[] hand){
+        // TODO: реализовать определение комбинации
+        return null;
+    }
 }
 
