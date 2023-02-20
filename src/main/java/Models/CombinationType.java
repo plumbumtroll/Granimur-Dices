@@ -1,4 +1,4 @@
-package Models;
+package main.java.Models;
 
 public enum CombinationType {
     Pair,

@@ -1,10 +1,11 @@
-import Models.Combination;
-import Models.CombinationType;
+package main.java;
+
+import main.java.Models.Combination;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello Models.Gambler!");
+        System.out.println("Hello main.java.Models.Gambler!");
 
 //TODO
 //        Сделать Класс, от которого будут наследоваться игроки
