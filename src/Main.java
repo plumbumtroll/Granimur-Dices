@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello Gambler!");
+        System.out.println("Hello Models.Gambler!");
 
 //TODO
 //        Сделать Класс, от которого будут наследоваться игроки
@@ -15,5 +15,12 @@ public class Main {
 //        - переброс
 //        - сравнение комбинаций
     }
+
+    public static int[] generateHand(){
+        // TODO: реализовать генерацию руки (стартовый бросок)
+        return null;
+    }
+
+    public static
 }
 

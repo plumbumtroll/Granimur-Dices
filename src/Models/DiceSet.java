@@ -1,12 +1,13 @@
-public class SetsStorage {
+package Models;
 
+public class DiceSet {
     int value;
     int count;
-    SetsStorage() {
+    DiceSet() {
         value = 0;
         count = 0;
     }
-    SetsStorage(int value, int count) {
+    DiceSet(int value, int count) {
         this.value =  value;
         this.count = count;
     }
