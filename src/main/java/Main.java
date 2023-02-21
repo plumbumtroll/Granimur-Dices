@@ -4,6 +4,8 @@ import main.java.Models.Combination;
 import java.lang.Math;
 import java.util.Random;
 import java.util.Arrays;
+import main.java.Models.CombinationType;
+import main.java.Models.DiceSet;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,7 +41,20 @@ public class Main {
     }
     public static Combination defineCombination(int[] hand) {
         // TODO: реализовать определение комбинации
-     return null; }
 
+        // hand -> DiceSet[], отсотрированный по DiceSet.count
+
+        // DiceSet[]
+
+        //if (DiceSet[] like [2, 1, 1, 1, 1]) {
+        //    return new Combination(CombinationType.Pair, new int[] { /* nominal пары */} );
+        //}
+        // и так далее
+        //else if () {
+
+        //}
+
+        return null;
+    }
 }
 

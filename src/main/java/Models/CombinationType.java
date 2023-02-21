@@ -8,7 +8,7 @@ public enum CombinationType {
     FullHouse,
     DoubleThree,
     Four,
-    BigFullHouse,
+    RoyalHouse,
     Five,
     Six,
     Straight
