@@ -7,9 +7,24 @@ public class DiceSet {
         nominal = 0;
         count = 0;
     }
-    DiceSet(int value, int count) {
+    public DiceSet(int value, int count) {
         this.nominal =  value;
         this.count = count;
+    }
+    public int getNominal() {
+        return nominal;
+    }
+    public void setNominal(int value) {
+        this.nominal = value;
+    }
+    public int getCount() {
+        return count;
+    }
+    public void setCount(int count) {
+        this.count = count;
+    }
+    public void incrementCount () {
+        this.count++;
     }
 }
 
