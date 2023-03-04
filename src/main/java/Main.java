@@ -92,5 +92,22 @@ public class Main {
 
         return null;
     }
+
+    public static Combination defineCombination2(int[] hand) {
+
+        int[] counts = new int[6];
+        for (int i = 0; i < hand.length; i++) {
+            counts[hand[i]]++;
+        }
+
+        ArrayList<DiceSet> diceSets = new ArrayList<>();
+        for (int i = 0; i < counts.length; i++) {
+            if (counts[i] > 0) {
+                diceSets.add(new DiceSet(i, counts[i]));
+            }
+        }
+
+        return null;
+    }
 }
 
